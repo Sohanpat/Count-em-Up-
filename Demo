@@ -1,0 +1,35 @@
+=== Grocery Counter Demo ===
+
+Starting value: $0.00
+
+Pressing tens (2x), tenths (1x), hundredths (1x):
+Display: $20.11
+Overflows: 0
+
+Pressing ones (11x):
+Display: $11.00
+Overflows: 0
+
+Demonstrating overflow (pressing tens 15 times):
+  Press 1: $10.00 (Overflows: 0)
+  Press 2: $20.00 (Overflows: 0)
+  Press 3: $30.00 (Overflows: 0)
+  Press 4: $40.00 (Overflows: 0)
+  Press 5: $50.00 (Overflows: 0)
+  Press 6: $60.00 (Overflows: 0)
+  Press 7: $70.00 (Overflows: 0)
+  Press 8: $80.00 (Overflows: 0)
+  Press 9: $90.00 (Overflows: 0)
+  Press 10: $0.00 (Overflows: 1)
+  Press 11: $10.00 (Overflows: 1)
+  Press 12: $20.00 (Overflows: 1)
+  Press 13: $30.00 (Overflows: 1)
+  Press 14: $40.00 (Overflows: 1)
+  Press 15: $50.00 (Overflows: 1)
+
+Setting to maximum (9999):
+Display: $99.99
+
+Adding one more hundredth:
+Display: $0.00 (wrapped around!)
+Overflows: 1

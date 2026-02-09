@@ -1,0 +1,31 @@
+====================================
+   GROCERY COUNTER TEST SUITE
+====================================
+
+Test 1: Initial State
+✓ PASS: Counter starts at 0000
+
+Test 2: Example from problem (2011)
+✓ PASS: Display shows $20.11
+
+Test 3: Example from problem (1100)
+✓ PASS: Display shows $11.00
+
+Test 4: Overflow Test
+✓ PASS: Counter overflowed correctly
+
+Test 5: Maximum Value (9999)
+✓ PASS: Maximum value $99.99
+
+Test 6: Overflow by One Hundredth
+✓ PASS: Overflowed from 9999 to 0000
+
+Test 7: Clear Function
+✓ PASS: Counter cleared successfully
+
+Test 8: Formatted Output (leading zeros)
+✓ PASS: Displays $5.09 with leading zero
+
+====================================
+   ALL TESTS COMPLETED!
+====================================
